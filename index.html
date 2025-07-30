@@ -4,101 +4,63 @@
         <title>Hoja de Vida Diego Fernando Camacho Calderón</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
-        
-        <style>
-            body {
-              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-              background-color: #f4f4f4;
-              color: #333;
-            }
-
-            .content {
-              max-width: 800px;
-              margin: auto;
-              padding: 50px;
-            }
-
-            .title {
-              color: #2c3e50;
-              text-align: center;
-            }
-
-            .profile-image {
-              display: block;
-              margin: 20px auto;
-              border-radius: 50%;
-            }
-
-            .parrafo {
-              text-align: justify;
-              line-height: 1.5;
-            }
-
-            table {
-              width: auto;
-              border-collapse: collapse;
-              margin: 5px 0;
-              background-color: rgb(208, 216, 224);
-            }
-            h2 {
-              color: #2c3e50;
-              text-align: center;
-              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            }
-         </style>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
-        <header>
-            <h1 class="title">Diego Fernando Camacho Calderón</h1>
-            <hr style="border: 1.5px solid #aaa6be;">
-        </header>
+      <!-- Clase Contenedor Main-->
+      <main> 
+    <nav class="navbar">
+        <h2 class="nav-title">Hoja de Vida</h2>
+        <ul class="nav-list">
+            <li><a href="#perfil-profesional">Perfil Profesional</a></li>
+            <li><a href="#formacion-academica">Formación Académica</a></li>
+            <li><a href="#experiencia-laboral">Experiencia Laboral</a></li>
+            <li><a href="#experiencia-proyectos">Proyectos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#conocimientos-tecnicos">Técnicos</a></li>
+            <li><a href="#idiomas">Idiomas</a></li>
+            <li><a href="#referencias-personales">Referencias</a></li>
+        </ul>
+    </nav>     
+ </main>  
+  
+      <section class="fila">
+          <article class="columna">
+              <h2 class="title">Diego Fernando Camacho Calderón</h2>
+                  <div class="content"> 
+                    <img src="Foto_Diego.png" alt="Diego Camacho" class="profile-image"
+                         width="30%"
+                         height="40%" padding="1px" margin="5px" aling="center"> 
+                      <div contenteditable="false"
+                         style="max-width: 100px; margin: 0 auto; padding: 20px; text-align: right;">
+                      </div>
+                  </div> 
+            
+            </article>
+        
+          <article class="columna">
+            <h2> Información de Contacto</h2><br>
+              <p><strong> Titulo Profesional:</strong> Tecnologo en Sistemas de Información</p>
+              <p><strong> Telefono: </strong> +57 301-770-5748</p>
+              <p><strong> Correo Electronico: </strong>diegofercam@gmail.com</p>
+              <p><strong> Ciudad: </strong> Palmira, Valle del Cauca</p>
+              <p><strong> LinkedIn: </strong><a href="www.linkedin.com/in/diegofercam">www.linkedin.com/in/diegofercam</a></p>
+              <p><strong> Github: </strong><a href="https://github.com/diegofercam1983">https://github.com/diegofercam1983</a></p>
+       
+          </article>
+        </section>
 
-        <div class="content">
-            <!--Cabecera de la Pagina-->
-            <img src="Foto_Diego.png" alt="Diego Camacho" class="profile-image" width="20%"
-            height="20%" padding="1px" margin="5px">
-        </div>
 
         <!--Datos Personales-->
-        <h2> Información de Contacto</h2>
-        <hr style="border: 1.5px solid #aaa6be;">
         
-        <p><strong> Titulo Profesional:</strong> Tecnologo en Sistemas de Información</p>
-        <p><strong> Telefono: </strong> +57 301-770-5748</p>
-        <p><strong> Correo Electronico: </strong>diegofercam@gmail.com</p>
-        <p><strong> Ciudad: </strong> Palmira, Valle del Cauca</p>
-        <p><strong> LinkedIn: </strong><a href="www.linkedin.com/in/diegofercam">www.linkedin.com/in/diegofercam</a></p>
-        <p><strong> Github: </strong><a href="https://github.com/diegofercam1983">https://github.com/diegofercam1983</a></p>
-        
-        <hr style="border: 1.5px solid #aaa6be;">
-
-        <nav>
-            <h2>
-              Indice
-            </h2>
-            
-            <ul>
-                <li><a href="#perfil-profesional">Perfil Profesional</a></li>
-                <li><a href="#formacion-academica">Formación Académica</a></li>
-                <li><a href="#experiencia-laboral">Experiencia Laboral</a></li>
-                <li><a href="#experiencia-proyectos">Experiencia Proyectos</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#conocimientos-tecnicos">Conocimientos Técnicos</a></li>
-                <li><a href="#idiomas">Idiomas</a></li>
-                <li><a href="#referencias-personales">Referencias Personales</a></li>
-            </ul>
-        </nav>
-        
-        <hr style="border: 1.5px solid #aaa6be;">
-
         <!--Descripcion completa del perfil profesional-->
         <section id="perfil-profesional">
-            <h2>
+            <h1 class="title">
               Perfil Profesional
-            </h2>
-            
-            <p> Tecnólogo en Sistemas de Información con más de 14 años de experiencia en el área de soporte de aplicativos y
+            </h1><br>
+             <p class="parrafo"> Tecnólogo en Sistemas de Información con más de 14 años de experiencia en el área de 
+              soporte de aplicativos y
                 gestión de información.
                 Especializado en brindar soluciones eficientes y oportunas para garantizar la continuidad operativa de sistemas de
                 información críticos en entornos empresariales. Poseo experiencia como líder en la gestión de incidentes, análisis
@@ -108,58 +70,43 @@
                 modelado y gobierno de datos.
             </p>
             
-            <p>Tengo experiencia en proyectos de virtualización, administración y actualización de máquinas virtuales, así como en
+            <p class="parrafo">Tengo experiencia en proyectos de virtualización, administración y actualización de máquinas virtuales, así como en
                 sistemas de información del sector salud, incluyendo HIS, RIS y PACS.
                 También he participado en la actualización de aplicativos y en la implementación de la facturación electrónica DIAN.
                 Además, desempeñé funciones como auxiliar de infraestructura y servicios TI, donde fui responsable del mantenimiento
                 preventivo, la gestión de solicitudes de soporte técnico y participé activamente en el mantenimiento del sistema de
                 gestión de calidad.
            </p>
-          
-          <hr style="border: 1.5px solid #aaa6be;">
-        
         </section>
+    
+    
+       <!--Sesion Formacion Academica -->
+         <h1  class="title">Formación Académica </h1>
+        <!--   <ul> -->
+              <!--<li>      -->          
+                 <h2 class="h2">
+                      Estudios Universitarios 
+                  </h2>
+               <!-- </li> -->
+                  <ul id="ul-formacion-academica">
+                    <li><h3 class="h3">Tecnología en Desarrollo de Software </h3></li>
+                        <a href="https://ucn.edu.co/">Fundacion Unidadversitaria Catolica del Norte</a><br>
+                        2021 – Actualmente último semestre.<br>
+                        Santa Rosa de Osos, Antioquia <br>
+                         <img src="LogoUcn.png" alt="UCN" width="20%" height="20%"> <br>
+                        
+                 <li><h3 class="h3">Tecnología en Sistemas de Información </h3></li>
+                        <a href="https://www.univalle.edu.co//">Universidad del Valle</a><br>
+                        2001 – 2004<br>
+                        Palmira, Valle del Cauca <br>
+                         <img src="LogoUnivalle.png" alt="UCN" width="15%" height="15%">
 
-      <section id="formacion-academica">
-        
-          <h2>Formación Académica </h2>
-          <!--Lista Combianda entre ordenada y no Ordenada Estudios-->
-            <ol start="1" style="list-style-type: decimal;">
-              <li>
-                <h3>Universitarios </h3>
-              </li>
-                <ul>
-                    <li>Tecnología en Desarrollo de Software <br>
-                      <a href="https://ucn.edu.co/">Fundacion Unidadversitaria Catolica del Norte</a>
-                      <br>2021 – Actualmente último semestre.
-                          Santa Rosa de Osos, Antioquia
-                    </li>
-            
-                    <img src="LogoUcn.png" alt="UCN" width="10%" height="10%">
-            
-                    <li>Tecnólogía en Sistemas de información<br>
-                      <a href="https://www.univalle.edu.co/">Universidad del Valle</a><br> 
-                        Enero 2001 – diciembre 2004
-                        Palmira, Colombia
-                    </li>
-                    <img src="LogoUnivalle.png" alt="Universidad del Valle" width="10%" height="10%">
                 </ul>
                 
-              <li>
-                <h3>Formación Complementaria:</h3>
-              </li>
-                
-                <ul>
-                    <li> Power Platform Fundamentals<br>
-                        <a href="https://www.controlesempresariales.com/">Controles Empresariales</a><br>
-                        2024
-                        Santiago de Cali, Valle del Cauca
-                    </li>
-                </ul>
-            </ol>
+          <!--  </ul> -->
           <hr style="border: 1.5px solid #aaa6be;">
-      </section>
-
+      
+    
       <section id="experiencia-laboral">
           <!--Se describe la Experiencia Laboral-->
           <h2>Experiencia Laboral </h2>
@@ -245,14 +192,14 @@
     
     <section id="experiencia-proyectos">
         <!--Se describe los proyecto en los que he traabajado-->
-        <h2>Experiencia proyectos</h2>
+        <h2>Experiencia proyectos</h2><br>
         <ol>
-          <li>
+          <li class="li">
             <strong>Virtualización a través de Citrix para Xen Desktop y XenApp:</strong>
             <p class="parrafo">Contribuí en la implementación de 160 máquinas virtuales y 50 escritorios remotos xenapp en la Clínica Palma Real para iniciar el proceso de prestación de servicios de salud.</p>
           </li>
           
-          <li>
+          <li class="li">
             <strong>Actualización de Aplicativos</strong><br>
             <p class="parrafo">Creé un plan de actualización, aplicación de parches de seguridad para
               máquinas virtuales Windows dentro del dominio corporativo, servidores de la granja virtualizada 
@@ -260,14 +207,14 @@
             </p>
           </li>
         
-          <li>
+          <li class="li">
             <strong>Sistemas de Información del Sector Salud</strong><br>
             <p class="parrafo">Actualmente construyo reportes normativos, administrativos y de productividad
                en las diferentes unidades de negocio del grupo corporativo CHRISTUS COLOMBIA.
             </p>
           </li>
 
-          <li>
+          <li class="li">
             <strong>Actualización Sistema de información Core</strong><br>
             <p class="parrafo">Realicé minuto grama, mapa de pruebas, puesta en marcha de nuevas actualizaciones,
                acompañamiento y estabilización de procesos críticos del sistema de información HIS para las empresas
@@ -275,7 +222,7 @@
             </p>
           </li>
           
-          <li>
+          <li class="li">
             <strong>Análisis e Implementación de Facturación Electrónica DIAN</strong><br>
             <p class="parrafo">Participé en la construcción de scripts para extracción de datos 
               en la implementación de las versiones 1.8, 1.9 y Documento soporte para las empresas
@@ -595,7 +542,8 @@
 
       
   </section>
-
+  
+     <div class="contenedor-footer">    
       <footer>
         <p style="text-align: center; font-size: 0.8em; color: #666;">
           &copy; 2024 Diego Fernando Camacho Calderón. Todos los derechos reservados.
@@ -604,6 +552,6 @@
           <br>Palmira, Valle del Cauca, Colombia.
         </p>
       </footer>
-
+    </div>
     </body>
 </html>
