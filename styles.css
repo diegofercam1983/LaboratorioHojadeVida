@@ -45,13 +45,18 @@ main {
 
 .navbar {
   background: linear-gradient(90deg, #003049, #1d3557);
-  padding: 15px 25px;
+  padding: 20px 25px;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
   animation: slideInTop 1s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .nav-list {
@@ -59,7 +64,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 12px;
+  gap: 5px;
   margin-top: 10px;
 }
 
